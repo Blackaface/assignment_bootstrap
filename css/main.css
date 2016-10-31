@@ -1,0 +1,141 @@
+/*ul{
+	margin: 0;
+}
+p{
+	color: #96A8B3;
+}
+
+.nav-bar{
+	border-top: 1px solid #EBEFF2;
+	line-height: 70px;
+}
+.banner{
+	padding: 100px 0;
+	background-image: url(http://placehold.it/2000x700/333333/333333);
+	background-position: 50% 50%;
+	background-size: cover;
+	color: #000;
+}
+
+.btn{
+
+	border: 1px solid #333;
+	background-color: #333;
+}
+
+.btn:hover{
+	border: 1px solid #04BA9A;
+	background-color: #04BA9A;
+}
+
+.buttons a{
+	color: #fff;
+}
+*/
+
+/*---------------------*/
+
+
+
+/*--font--*/
+
+
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+h1 {
+	color: #000;
+	font-size: 3.125rem;
+	line-height: 5.625rem;
+	letter-spacing: 1.04rem;
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+	font-size: 1.5625rem;
+	font-weight: 700;
+	letter-spacing: 0.087rem;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.words p, .filter a, .load p{
+	font-size: 10px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.copyright p{
+	font-size: 0.1rem;
+	margin: 0;
+	font-family: 'Niconne', cursive;
+}
+
+.container{
+	width: 100vw;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.col-lg-4, .col-md-4, .col-sm-4, .col-xs-12{
+	padding-top: 1.25vw;
+	padding-bottom: 1.25vw;
+}
+
+
+#menu-trigger{
+	width: 40px;
+	height: 40px;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+hr {
+	width: 3.125rem;
+	height: 0.125rem;
+	background-color: #000;
+}
+
+.clearfix{
+	clear: both;
+}
+
+@media(min-width: 320px){
+	nav ul{
+		display: none;
+	}
+}
+
+
+@media(min-width: 768px) {
+
+}
+
+@media(min-width: 1200px){
+	.container{
+		width: 1200px;
+	}
+	nav ul{
+		display: inline;
+	}
+
+	#menu-trigger{
+		display:none;
+	}
+
+	.col-4{
+		width: 30.8vw;
+		margin: 1.25vw;
+	}
+
+	.col-lg-4, .col-md-4, .col-sm-4, .col-xs-12{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+}
